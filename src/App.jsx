@@ -15,8 +15,8 @@ function App() {
   let [toggle, setToggle] = useState(false);
   return (
     <div>
-      <ControlForm1 />
-      <ControledForms2 />
+      {/* <ControlForm1 />
+      <ControledForms2 /> */}
 
       {/* <TodoWrapper /> */}
 
@@ -29,7 +29,7 @@ function App() {
 
       {/* <Parents1 /> */}
 
-      {/* <Parents2 /> */}
+      <Parents2 />
     </div>
   )
 }
