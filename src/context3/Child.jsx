@@ -1,15 +1,14 @@
 import React, { useContext } from 'react'
-import { MyContext } from './Context'
+import { GlobalData } from './Context'
 
 const Child = () => {
-  let val =  useContext(MyContext)
-  console.log(val)
+    let val = useContext(GlobalData);
+    console.log(val)
   return (
     <div>
-      <h3>child</h3>
+      child 1
     </div>
   )
 }
 
 export default Child
- 

@@ -9,6 +9,7 @@ import LifeCycleFBC from './lifecycle/LifeCycleFBC'
 import SideEffects from './sideeffect/SideEffects'
 import Parents1 from './context/Parents1'
 import Parents2 from './context2/Parents2'
+import Parents from './context3/Parents'
 
 
 function App() {
@@ -29,7 +30,9 @@ function App() {
 
       {/* <Parents1 /> */}
 
-      <Parents2 />
+      {/* <Parents2 /> */}
+
+      <Parents />
     </div>
   )
 }
