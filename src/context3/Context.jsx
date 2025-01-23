@@ -5,12 +5,12 @@ const Context = ({children}) => { //!destructure
 
     let str = "hello world"
   return (
-    <div>
+    
       <GlobalData.Provider value={str}>
         {/* <child /> */}
         {children} 
       </GlobalData.Provider>
-    </div>
+    
   )
 }
 

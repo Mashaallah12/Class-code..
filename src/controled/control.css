@@ -23,12 +23,13 @@ input{
 button{
     height: 30px;
     border: none;
-    /* border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 5px;
     background-color:black;
     color: white;
     margin-top: 5px;
+    margin: 2px;
 }

@@ -9,8 +9,9 @@ import LifeCycleFBC from './lifecycle/LifeCycleFBC'
 import SideEffects from './sideeffect/SideEffects'
 import Parents1 from './context/Parents1'
 import Parents2 from './context2/Parents2'
-import Parents from './context3/Parents'
-
+// import Parents from './context3/Parents'
+import Parents from './HOC/Parents'
+import Reducer from './reducer/Reducer'
 
 function App() {
   let [toggle, setToggle] = useState(false);
@@ -32,7 +33,12 @@ function App() {
 
       {/* <Parents2 /> */}
 
-      <Parents />
+      {/* <Parents /> */}
+ 
+      {/* <Parents /> */}
+
+      <Reducer />
+
     </div>
   )
 }
